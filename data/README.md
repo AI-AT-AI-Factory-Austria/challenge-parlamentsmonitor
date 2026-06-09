@@ -1,10 +1,10 @@
-# Seed-Dataset — Felder & Hinweise
+# Seed-Dataset: Felder & Hinweise
 
-> ⚠️ **Das Dataset ist synthetisch und vereinfacht (Stand 2026-06) und keine offizielle AI:AT-Position.** Die Parlaments-Vorgänge sind an die reale Semantik der Open-Data-API des österreichischen Parlaments angelehnt (Typ, Status, Nummer/Zitation, Themen), aber **frei erfunden** — keine realen Gesetzgebungsverfahren, Nummern oder Inhalte. Kein Domänenwissen nötig — die Felder unten verstehst du ohne Vorwissen. Behandle die Daten als Spielmaterial, nicht als parlamentarische Realität.
+> ⚠️ **Das Dataset ist synthetisch und vereinfacht (Stand 2026-06) und keine offizielle AI:AT-Position.** Die Parlaments-Vorgänge sind an die reale Semantik der Open-Data-API des österreichischen Parlaments angelehnt (Typ, Status, Nummer/Zitation, Themen), aber frei erfunden: keine realen Gesetzgebungsverfahren, Nummern oder Inhalte. Kein Domänenwissen nötig, die Felder unten verstehst du ohne Vorwissen. Behandle die Daten als Spielmaterial, nicht als parlamentarische Realität.
 
 ## `vorgaenge.json` (21 parlamentarische Vorgänge)
 
-Eine Liste synthetischer Gesetzesvorlagen, Anträge und Anfragen aus verschiedenen Branchen und mit unterschiedlichem Status — bewusst kontrastierend, damit der Agent je nach Profil unterschiedliche Top-Vorgänge liefert.
+Eine Liste synthetischer Gesetzesvorlagen, Anträge und Anfragen aus verschiedenen Branchen und mit unterschiedlichem Status, bewusst kontrastierend, damit der Agent je nach Profil unterschiedliche Top-Vorgänge liefert.
 
 | Feld | Typ | Bedeutung |
 |---|---|---|
@@ -23,7 +23,7 @@ Eine Liste synthetischer Gesetzesvorlagen, Anträge und Anfragen aus verschieden
 
 ## `examples/profil_energie.json` (Beispiel-Unternehmensprofil)
 
-Ausgangspunkt für deine Arbeit — ein Profil eines Regulatory-Affairs-Teams:
+Ausgangspunkt für deine Arbeit: ein Profil eines Regulatory-Affairs-Teams.
 
 | Feld | Typ | Bedeutung |
 |---|---|---|
@@ -35,10 +35,10 @@ Ausgangspunkt für deine Arbeit — ein Profil eines Regulatory-Affairs-Teams:
 
 ## Live-Daten (optional, Dev-Stretch)
 
-Echte parlamentarische Vorgänge liefert die **Open-Data-API des österreichischen Parlaments** — **ohne API-Key**:
+Echte parlamentarische Vorgänge liefert die Open-Data-API des österreichischen Parlaments, ohne API-Key:
 
 ```
 POST https://www.parlament.gv.at/Filter/api/filter/data/101?js=eval&showAll=true
 ```
 
-Das ist ein optionaler Stretch — der mitgelieferte Seed reicht für die Aufgabe vollständig aus.
+Das ist ein optionaler Stretch; der mitgelieferte Seed reicht für die Aufgabe vollständig aus.

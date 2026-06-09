@@ -1,6 +1,6 @@
 /**
  * priorisiereVorgaenge: Bewertet Parlaments-Vorgänge gegen ein Unternehmens-
- * Profil und gibt die WICHTIGSTEN Vorgänge zurück — die mit dem höchsten
+ * Profil und gibt die WICHTIGSTEN Vorgänge zurück, die mit dem höchsten
  * Impact-Score zuerst, gefiltert auf die Impact-Schwelle des Profils.
  *
  * Der Impact-Score ist mehrkriteriell: Branchen-Match + Themen-Überlappung +
@@ -68,7 +68,7 @@ function priorisiereVorgaenge(
 // Demo
 // ---------------------------------------------------------------------------
 
-// Demo-Daten: vereinfachte Illustration — NICHT der echte Datensatz (siehe ../data/vorgaenge.json).
+// Demo-Daten: vereinfachte Illustration, NICHT der echte Datensatz (siehe ../data/vorgaenge.json).
 const profil: Profil = {
   branche: "Energie",
   themen_interessen: ["Energie", "Umwelt", "Infrastruktur"],
